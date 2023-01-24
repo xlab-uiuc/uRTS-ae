@@ -1,0 +1,11 @@
+alluxio.master.hostname=localhost
+alluxio.underfs.address=${alluxio.work.dir}/underFSStorage
+alluxio.security.authorization.permission.enabled=true
+alluxio.security.authentication.type=SIMPLE
+alluxio.worker.tieredstore.level0.dirs.path=/dev/shm
+alluxio.user.file.readtype.default=CACHE_PROMOTE
+alluxio.user.file.writetype.default=CACHE_THROUGH
+alluxio.zookeeper.enabled=true
+alluxio.zookeeper.address=zk-svc:2181
+alluxio.master.mount.table.root.ufs=hdfs://hadoop:12000/alluxio_ufc1
+alluxio.master.journal.folder=/opt/journal

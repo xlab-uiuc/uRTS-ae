@@ -1,0 +1,5 @@
+config.file.dir.path=.
+config.production.name=prod2
+config.mapping.path=mapping
+config.inject.path=target/test-classes/hbase-ctest-pid.xml
+config.prod.path=prod2.xml

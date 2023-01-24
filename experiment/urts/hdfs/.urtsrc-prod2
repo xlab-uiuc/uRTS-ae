@@ -1,0 +1,6 @@
+config.file.dir.path=.
+config.production.name=prod2
+config.mapping.path=mapping
+config.inject.path=target/classes/hdfs-ctest-pid.xml
+config.prod.path=prod2.xml
+config.dependency=dfs.namenode.name.dir@hadoop.tmp.dir:dfs.namenode.edits.dir@dfs.namenode.name.dir,hadoop.tmp.dir:dfs.datanode.data.dir@hadoop.tmp.dir:dfs.namenode.checkpoint.dir@hadoop.tmp.dir:dfs.namenode.checkpoint.edits.dir@dfs.namenode.checkpoint.dir,hadoop.tmp.dir:dfs.namenode.kerberos.internal.spnego.principal@dfs.web.authentication.kerberos.principal:dfs.secondary.namenode.kerberos.internal.spnego.principal@dfs.web.authentication.kerberos.principal

@@ -1,0 +1,5 @@
+alluxio.user.file.readtype.default=CACHE_PROMOTE
+alluxio.user.file.writetype.default=CACHE_THROUGH\
+alluxio.master.hostname=localhost
+alluxio.underfs.address=${alluxio.work.dir}/underFSStorage
+alluxio.underfs.address=hdfs://localhost:9000

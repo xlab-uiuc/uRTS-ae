@@ -1,0 +1,5 @@
+config.file.dir.path=.
+config.production.name=prod1
+config.mapping.path=mapping
+config.inject.path=target/classes/core-ctest-pid.xml
+config.prod.path=prod1.xml

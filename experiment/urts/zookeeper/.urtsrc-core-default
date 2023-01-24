@@ -1,0 +1,6 @@
+dependencies.ignored.paths=Version\.class|Info\.class
+config.file.dir.path=.
+config.production.name=core-default
+config.mapping.path=mapping
+config.inject.path=ctest-pid.cfg
+config.prod.path=core-default.cfg

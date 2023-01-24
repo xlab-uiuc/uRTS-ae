@@ -1,0 +1,48 @@
+org.apache.zookeeper.server.quorum.EphemeralNodeDeletionTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.QuorumPeerMainTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, metricsProvider.className, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigBackupTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, reconfigEnabled, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.LeaderWithObserverTest: dataDir, dataLogDir
+org.apache.zookeeper.test.ClientSSLTest: dataDir, dataLogDir, minSessionTimeout, standaloneEnabled, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.StandaloneDisabledTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.InvalidSnapCountTest: dataDir, maxSessionTimeout, dataLogDir, minSessionTimeout, tickTime
+org.apache.zookeeper.server.ZooKeeperServerMainTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, metricsProvider.className, tickTime, standaloneEnabled
+org.apache.zookeeper.server.quorum.RaceConditionTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigRecoveryTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigRollingRestartCompatibilityTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.auth.QuorumKerberosHostBasedAuthTest: maxClientCnxns, dataDir, autopurge.snapRetainCount, quorumListenOnAllIPs, dataLogDir, minSessionTimeout, clientPort, cnxTimeout, autopurge.purgeInterval, electionAlg, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigLegacyTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.QuorumSSLTest: dataDir, sslQuorum, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.ClientRequestTimeoutTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.admin.JettyAdminServerTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.FuzzySnapshotRelatedTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigFailureCasesTest: dataDir, dataLogDir, minSessionTimeout, peerType, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.auth.QuorumAuthUpgradeTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.auth.QuorumDigestAuthTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.ReconfigDuringLeaderSyncTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.test.NonRecoverableErrorTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.auth.QuorumKerberosAuthTest: maxClientCnxns, dataDir, autopurge.snapRetainCount, quorumListenOnAllIPs, dataLogDir, minSessionTimeout, clientPort, cnxTimeout, autopurge.purgeInterval, electionAlg, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.audit.Slf4JAuditLoggerTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.ClientCnxnSocketFragilityTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.embedded.ZookeeperServerClusterMutualAuthTest: dataDir, syncLimit, dataLogDir, initLimit, tickTime, minSessionTimeout, maxSessionTimeout
+org.apache.zookeeper.server.embedded.ZookeeperServerClusterTest: dataDir, syncLimit, dataLogDir, initLimit, tickTime, minSessionTimeout, maxSessionTimeout
+org.apache.zookeeper.server.quorum.CloseSessionTxnTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.CurrentEpochWriteFailureTest: dataDir, dataLogDir, minSessionTimeout, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.DIFFSyncConsistencyTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.EpochWriteFailureTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.FollowerRequestProcessorTest: dataDir, dataLogDir, minSessionTimeout, observerMasterPort, peerType, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.LearnerMetricsTest: peerType, maxSessionTimeout, dataDir, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.QuorumDigestTest: peerType, maxSessionTimeout, dataDir, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.server.quorum.QuorumPeerConfigTest: jvm.pause.monitor, jvm.pause.info-threshold.ms, jvm.pause.warn-threshold.ms, jvm.pause.sleep.time.ms
+org.apache.zookeeper.server.quorum.QuorumPeerMainMultiAddressTest: dataDir, maxSessionTimeout, syncLimit, initLimit, minSessionTimeout, dataLogDir, tickTime, connectToLearnerMasterLimit, multiAddress.enabled
+org.apache.zookeeper.server.quorum.SessionUpgradeQuorumTest: dataDir, dataLogDir, minSessionTimeout, localSessionsUpgradingEnabled, maxSessionTimeout, syncLimit, tickTime, connectToLearnerMasterLimit, localSessionsEnabled, initLimit
+org.apache.zookeeper.server.X509AuthFailureTest: dataDir, maxSessionTimeout, dataLogDir, minSessionTimeout, tickTime
+org.apache.zookeeper.server.ZooKeeperServerMaxCnxnsTest: dataDir, maxSessionTimeout, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.ServerConfigTest: dataDir, maxClientCnxns, jvm.pause.info-threshold.ms, jvm.pause.monitor, tickTime, jvm.pause.warn-threshold.ms, jvm.pause.sleep.time.ms
+org.apache.zookeeper.test.ObserverMasterTest: peerType, maxSessionTimeout, dataDir, syncLimit, dataLogDir, minSessionTimeout, tickTime, connectToLearnerMasterLimit, initLimit
+org.apache.zookeeper.test.StandaloneTest: dataDir, dataLogDir, maxSessionTimeout, tickTime, standaloneEnabled, minSessionTimeout
+org.apache.zookeeper.server.embedded.ZookeeperServerEmbeddedTest: dataDir, dataLogDir, standaloneEnabled, tickTime, minSessionTimeout, maxSessionTimeout
+org.apache.zookeeper.server.embedded.ZookeeperServerSslEmbeddedTest: dataDir, dataLogDir, standaloneEnabled, tickTime, minSessionTimeout, maxSessionTimeout, syncLimit
+org.apache.zookeeper.audit.Log4jAuditLoggerTest: dataDir, dataLogDir, syncLimit, initLimit, minSessionTimeout, maxSessionTimeout, connectToLearnerMasterLimit, tickTime
+org.apache.zookeeper.test.ReconfigExceptionTest: standaloneEnabled
+org.apache.zookeeper.test.ReconfigMisconfigTest: standaloneEnabled
+org.apache.zookeeper.test.ReconfigTest: standaloneEnabled

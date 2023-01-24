@@ -1,0 +1,5 @@
+dependencies.nio=true
+dependencies.nio.includes=hbase-site.xml
+config.mapping.path=mapping
+config.inject.path=target/test-classes/hbase-ctest-pid.xml
+config.prod.path=production-configuration.xml

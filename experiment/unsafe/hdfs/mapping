@@ -1,0 +1,15 @@
+org.apache.hadoop.hdfs.TestDFSUtil:dfs.namenode.http-address
+org.apache.hadoop.hdfs.TestFsShellPermission:dfs.permissions, dfs.permissions.enabled, dfs.permissions.superusergroup
+org.apache.hadoop.hdfs.TestErasureCodingPolicies:dfs.permissions, dfs.permissions.enabled, dfs.permissions.superusergroup
+org.apache.hadoop.hdfs.TestErasureCodingPoliciesWithRandomECPolicy:dfs.permissions, dfs.permissions.enabled, dfs.permissions.superusergroup
+org.apache.hadoop.hdfs.TestQuota:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestQuotaAllowOwner:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestSafeModeWithStripedFileWithRandomECPolicy:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestSafeModeWithStripedFile:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestSafeMode:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestBlockManagerSafeMode:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestTrashWithEncryptionZones:dfs.safemode.extension
+org.apache.hadoop.hdfs.TestNameNodeRespectsBindHostKeys:dfs.namenode.rpc-bind-host
+org.apache.hadoop.hdfs.TestHASafeMode:dfs.namenode.safemode.threshold-pct, 
+org.apache.hadoop.hdfs.TestDFSHAAdmin:dfs.namenode.rpc-bind-host, dfs.namenode.servicerpc-bind-host
+org.apache.hadoop.hdfs.TestDFSHAAdminMiniCluster:dfs.namenode.rpc-bind-host, dfs.namenode.servicerpc-bind-host

@@ -1,0 +1,12 @@
+alluxio.user.file.readtype.default=CACHE_PROMOTE
+alluxio.user.file.writetype.default=CACHE_THROUGH
+alluxio.master.hostname=localhost
+alluxio.underfs.address=${alluxio.work.dir}/underFSStorage
+alluxio.underfs.address=hdfs://localhost:9000
+alluxio.security.authorization.permission.enabled=true
+alluxio.security.authentication.type=SIMPLE
+alluxio.worker.memory.size=1GB
+alluxio.worker.tieredstore.level0.dirs.quota=1GB
+alluxio.master.mount.table.root.ufs=/opt/alluxio_ufs
+alluxio.master.journal.folder=hadoop:12000/alluxio/journal
+alluxio.master.journal.folder=/opt/journal

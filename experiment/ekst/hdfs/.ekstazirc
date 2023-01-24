@@ -1,0 +1,5 @@
+dependencies.nio=true
+dependencies.nio.includes=hdfs-default.xml
+config.mapping.path=mapping
+config.inject.path=target/classes/hdfs-ctest-pid.xml
+config.prod.path=production-configuration.xml

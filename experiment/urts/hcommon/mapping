@@ -1,0 +1,18 @@
+org.apache.hadoop.ha.TestHealthMonitor: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ha.TestHealthMonitorWithDedicatedHealthAddress: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ha.TestZKFailoverController: hadoop.security.authorization
+org.apache.hadoop.ipc.TestAsyncIPC: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestIPC: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestIPCServerResponder: hadoop.security.authorization
+org.apache.hadoop.ipc.TestMultipleProtocolServer: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestProtoBufRPCCompatibility: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestProtoBufRpc: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestProtoBufRpcServerHandoff: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestRPC: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestRPCCallBenchmark: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestRPCServerShutdown: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestReuseRpcConnections: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestRpcServerHandoff: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.ipc.TestSaslRPC: hadoop.security.authorization
+org.apache.hadoop.security.TestAuthenticationFilter: hadoop.security.authorization, hadoop.security.authentication
+org.apache.hadoop.security.TestDoAsEffectiveUser: hadoop.security.authorization, hadoop.security.authentication

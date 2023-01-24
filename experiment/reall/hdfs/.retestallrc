@@ -1,0 +1,3 @@
+config.mapping.path=./mapping
+config.inject.path=./target/classes/hdfs-ctest.xml
+config.prod.path=./production-configuration.xml

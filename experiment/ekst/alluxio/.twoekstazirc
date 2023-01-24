@@ -1,0 +1,3 @@
+config.mapping.path=../../mapping
+config.inject.path=../../alluxio-ctest-pid.properties
+config.prod.path=../../production-configuration.properties

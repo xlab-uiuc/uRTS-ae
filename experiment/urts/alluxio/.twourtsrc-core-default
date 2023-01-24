@@ -1,0 +1,6 @@
+config.file.dir.path=../../
+config.production.name=core-default
+config.mapping.path=../../mapping
+config.inject.path=../../alluxio-ctest-pid.properties
+config.prod.path=../../core-default.properties
+config.excludes=alluxio.test.mode:alluxio.worker.tieredstore.level0.dirs.quota:alluxio.zookeeper.enabled

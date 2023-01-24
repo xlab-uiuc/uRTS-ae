@@ -1,0 +1,19 @@
+org.apache.hadoop.hbase.TestMetaTableAccessorNoCluster: hbase.zookeeper.property.clientPort, hbase.zookeeper.property.dataDir, hbase.zookeeper.quorum, zookeeper.session.timeout, zookeeper.znode.parent
+org.apache.hadoop.hbase.filter.TestDependentColumnFilter: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.filter.TestColumnPrefixFilter: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.io.encoding.TestSeekBeforeWithReverseScan: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.filter.TestQualifierFilterWithEmptyQualifier: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.io.hfile.TestScannerSelectionUsingKeyRange: hbase.client.scanner.timeout.period
+org.apache.hadoop.hbase.io.hfile.TestScannerFromBucketCache: hbase.client.scanner.timeout.period
+org.apache.hadoop.hbase.mob.TestMobFileCache: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.mob.TestMobFileLink: fs.defaultFS
+org.apache.hadoop.hbase.regionserver.TestBlocksRead: hbase.hregion.memstore.block.multiplier
+org.apache.hadoop.hbase.regionserver.TestBlocksScanned: hbase.hregion.memstore.block.multiplier
+org.apache.hadoop.hbase.regionserver.TestCacheOnWriteInSchema: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestGetClosestAtOrBefore: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestHRegionInfo: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestMinorCompaction: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestResettingCounters: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestScanWithBloomError: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestStoreScannerClosure: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class
+org.apache.hadoop.hbase.regionserver.TestSwitchToStreamRead: hbase.region.server.rpc.scheduler.factory.class, hbase.rpc.controllerfactory.class

@@ -1,0 +1,3 @@
+config.mapping.path=mapping
+config.inject.path=ctest-pid.cfg
+config.prod.path=production-configuration.cfg
