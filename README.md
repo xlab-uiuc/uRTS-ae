@@ -1,4 +1,5 @@
 # Test Selection for Unified Regression Testing
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This is the artifact of the research paper:
 
