@@ -1,6 +1,13 @@
 # Experiment
 
 ## Setup Environment
+Pre-requisites for use:
+- Java8 installed
+- Maven installed
+- Protobuf2.5 installed
+- Python3 installed and dependency packages installed: matplotlib, numpy, pandas, scipy
+
+You can also run the following command to install the dependency.
 ```
 $ bash setup_ubuntu.sh
 ```
