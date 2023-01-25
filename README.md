@@ -1,5 +1,6 @@
 # Test Selection for Unified Regression Testing
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7566915.svg)](https://doi.org/10.5281/zenodo.7566915)
 
 This is the artifact of the research paper:
 
