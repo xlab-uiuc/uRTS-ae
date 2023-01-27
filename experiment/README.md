@@ -21,12 +21,12 @@ $ bash install_tool.sh ekst
 ```
 
 ## Run Experiment
-Warning: This steps would require 2000+ hours to finish on a single machine.
-`hcommon` takes around 140+ hours
-`hdfs` takes around 1700+ hours
-`hbase` takes around 90+ hours
-`alluxio` takes around 60+ hours
-`zookeeper` takes around 80+ hours
+*Warning*: This steps would require 2000+ hours to finish on a single machine.
+- `hcommon` takes around 140+ hours
+- `hdfs` takes around 1700+ hours
+- `hbase` takes around 90+ hours
+- `alluxio` takes around 60+ hours
+- `zookeeper` takes around 80+ hours
 
 Use `run.sh` script to run all experiments in our evaluation.
 ```
