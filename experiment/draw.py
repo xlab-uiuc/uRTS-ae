@@ -74,6 +74,8 @@ def draw_helper(proj, target_file, y_time, y_test):
     
 def draw(proj, csv_file, target_folder):
     y_time, y_test = read_summary_csv(csv_file)
+    if not os.path.exists(target_folder):
+        os.makedirs(target_folder)
     target_file = os.path.join(target_folder, "{}.pdf".format(proj))
     draw_helper(proj, target_file, y_time, y_test)
     

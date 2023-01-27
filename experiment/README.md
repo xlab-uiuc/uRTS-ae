@@ -35,6 +35,8 @@ $ bash run.sh [mode] [project]
 `mode` can be `urts`, `reall`, `ekst` (Ekstazi+ in the paper), and  `unsafe` (Ekstazi- in the paper);\
 `project` can be `hcommon`, `hdfs`, `hbase`, `alluxio`, and `zookeeper`.
 
+Because this step is time-consuming, we provided the results of the five projects in [data/csv_files](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data/csv_files).
+
 ## Parse Experiment Results
 After finishing all 4 modes for one project, you can follow the steps to get CSV files and PDF figures shown in the paper.
 
@@ -51,7 +53,7 @@ $ python3 draw.py hcommon csv_files/hcommon/summary.csv figures/hcommon
 ```
 
 PS: We have provided all experimental results as CSV format stored in [data/csv_files](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data/csv_files).
-You can generate figures with the provided CSV files by calling:
+You can generate figures with the provided results by calling:
 ```
 $ python3 draw.py hcommon ../data/csv_files/hcommon/summary.csv figures/hcommon
 $ python3 draw.py hdfs ../data/csv_files/hdfs/summary.csv figures/hdfs
@@ -60,3 +62,4 @@ $ python3 draw.py alluxio ../data/csv_files/alluxio/summary.csv figures/alluxio
 $ python3 draw.py zookeeper ../data/csv_files/zookeeper/summary.csv figures/zookeeper
 ```
 The output figures will be saved in `figures` under the current directory.
+The output figures are the main results we shown in our [paper](https://github.com/xlab-uiuc/uRTS-ae/blob/main/paper.pdf) Figure 7.
