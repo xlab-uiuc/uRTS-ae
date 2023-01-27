@@ -14,4 +14,11 @@ The source code of modified-Ekstazi and uRTS mentioned in the paper are under [c
 Check [data](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data) directory to get all data in the paper.
 
 ## Experiment
-To reproduce the experimental results, follow the instruction in [experiment](https://github.com/xlab-uiuc/uRTS-ae/tree/main/experiment) directory. 
+To reproduce the experimental results, follow the instruction in [experiment](https://github.com/xlab-uiuc/uRTS-ae/tree/main/experiment) directory.\
+The experiments have two phases:
+1. run tests of various commits and configuration to obtain log files
+2. process log files
+
+To fully reprodcue the first phase is time-consuming and may take up to 2000+ hours machine time. For the first phase, reviewers may want to run for only one of the five projects on a laptop.\
+We provide our results of the first phase in [data/csv_files](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data/csv_files).
+Reviewer can quickly get the results by running the second phase, detailed instructions are provided [here](https://github.com/xlab-uiuc/uRTS-ae/tree/main/experiment#parse-experiment-results).
