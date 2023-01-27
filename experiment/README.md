@@ -14,7 +14,7 @@ $ bash setup_ubuntu.sh
 
 ## Install uRTS / Ekstazi
 
-Use the following command to install urts and ekstazi:
+Use the following command to install uRTS and Ekstazi:
 ```
 $ bash install_tool.sh urts
 $ bash install_tool.sh ekst
