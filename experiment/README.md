@@ -7,20 +7,27 @@ Pre-requisites for use:
 - Protobuf2.5 installed
 - Python3 installed and dependency packages installed: matplotlib, numpy, pandas, scipy
 
-You can also run the following command to install the dependency.
+You can also run the following command to install the dependencies.
 ```
 $ bash setup_ubuntu.sh
 ```
 
 ## Install uRTS / Ekstazi
 
-Use the following command to install urts or ekstazi:
+Use the following command to install urts and ekstazi:
 ```
-$ bash install_tool.sh [tool]
+$ bash install_tool.sh urts
+$ bash install_tool.sh ekst
 ```
-`tool` can be `urts`, `reall` (`ReTestAll` in paper), `ekst` (`Ekstazi+` in paper), and `unsafe` (`Ekstazi-` in paper).
 
 ## Run Experiment
+Warning: This steps would require 2000+ hours to finish on a single machine.
+`hcommon` takes around 140+ hours
+`hdfs` takes around 1700+ hours
+`hbase` takes around 90+ hours
+`alluxio` takes around 60+ hours
+`zookeeper` takes around 80+ hours
+
 Use `run.sh` script to run all experiments in our evaluation.
 ```
 $ bash run.sh [mode] [project]
@@ -43,3 +50,13 @@ $ bash parse_csv.py hcommon csv_files/hcommon/
 $ python3 draw.py hcommon csv_files/hcommon/summary.csv figures/hcommon 
 ```
 
+PS: We have provided all experimental results as CSV format stored in [data/csv_files](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data/csv_files).
+You can generate figures with the provided CSV files by calling:
+```
+$ python3 draw.py hcommon ../data/csv_files/hcommon/summary.csv figures/hcommon
+$ python3 draw.py hdfs ../data/csv_files/hdfs/summary.csv figures/hdfs
+$ python3 draw.py alluxio ../data/csv_files/alluxio/summary.csv figures/alluxio
+$ python3 draw.py hbase ../data/csv_files/hbase/summary.csv figures/hbase
+$ python3 draw.py zookeeper ../data/csv_files/zookeeper/summary.csv figures/zookeeper
+```
+The output figures will be saved in `figures` under the current directory.

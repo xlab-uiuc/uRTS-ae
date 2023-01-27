@@ -17,6 +17,6 @@ cd protobuf-2.5.0
 ./configure --prefix=/usr
 make
 make install
-protoc --version
+./protoc --version
 
 cd $curdir

@@ -14,4 +14,4 @@ The source code of modified-Ekstazi and uRTS mentioned in the paper are under [c
 Check [data](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data) directory to get all data in the paper.
 
 ## Experiment
-To reproduce the experiment results, follow the instruction in [experiment](https://github.com/xlab-uiuc/uRTS-ae/tree/main/experiment) directory. 
+To reproduce the experimental results, follow the instruction in [experiment](https://github.com/xlab-uiuc/uRTS-ae/tree/main/experiment) directory. 
