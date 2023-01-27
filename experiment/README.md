@@ -21,7 +21,7 @@ $ bash install_tool.sh ekst
 ```
 
 ## Run Experiment
-*Warning*: This steps would require 2000+ hours to finish on a single machine.
+*Warning*: This step would require 2000+ hours to finish on a single machine.
 - `hcommon` takes around 140+ hours
 - `hdfs` takes around 1700+ hours
 - `hbase` takes around 90+ hours
@@ -32,13 +32,13 @@ Use `run.sh` script to run all experiments in our evaluation.
 ```
 $ bash run.sh [mode] [project]
 ```
-`mode` can be `urts`, `reall`, `ekst`, and  `unsafe`;\
+`mode` can be `urts`, `reall`, `ekst` (Ekstazi+ in the paper), and  `unsafe` (Ekstazi- in the paper);\
 `project` can be `hcommon`, `hdfs`, `hbase`, `alluxio`, and `zookeeper`.
 
 ## Parse Experiment Results
 After finishing all 4 modes for one project, you can follow the steps to get CSV files and PDF figures shown in the paper.
 
-For example, to get HCommon result, execute:
+For example, to get HCommon results, execute:
 ```
 # Parse hcommon results and put CSV files into `csv_files/hcommon/` directory
 $ bash parse.sh hcommon csv_files/hcommon/
@@ -55,8 +55,8 @@ You can generate figures with the provided CSV files by calling:
 ```
 $ python3 draw.py hcommon ../data/csv_files/hcommon/summary.csv figures/hcommon
 $ python3 draw.py hdfs ../data/csv_files/hdfs/summary.csv figures/hdfs
-$ python3 draw.py alluxio ../data/csv_files/alluxio/summary.csv figures/alluxio
 $ python3 draw.py hbase ../data/csv_files/hbase/summary.csv figures/hbase
+$ python3 draw.py alluxio ../data/csv_files/alluxio/summary.csv figures/alluxio
 $ python3 draw.py zookeeper ../data/csv_files/zookeeper/summary.csv figures/zookeeper
 ```
 The output figures will be saved in `figures` under the current directory.
