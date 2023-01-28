@@ -62,4 +62,4 @@ $ python3 draw.py alluxio ../data/csv_files/alluxio/summary.csv figures/alluxio
 $ python3 draw.py zookeeper ../data/csv_files/zookeeper/summary.csv figures/zookeeper
 ```
 The output figures will be saved in `figures` under the current directory.
-The output figures are the main results we shown in our [paper](https://github.com/xlab-uiuc/uRTS-ae/blob/main/paper.pdf) Figure 7.
+The output figures are the main results we show in our [paper](https://github.com/xlab-uiuc/uRTS-ae/blob/main/paper.pdf) Figure 7.
