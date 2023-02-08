@@ -1,0 +1,4 @@
+commit,def_a_time,def_total_time,def_total_classes,def_select_from_prev,def_select_from_cur,def_select_from_both,prod1_a_time,prod1_total_time,prod1_total_classes,prod1_select_from_prev,prod1_select_from_cur,prod1_select_from_both,prod2_a_time,prod2_total_time,prod2_total_classes,prod2_select_from_prev,prod2_select_from_cur,prod2_select_from_both
+df44178eb6d052b868cfb35adf40316b648f5a6c,0.801,1445.0046081542969,510,510,510,510,1.022,424.6925251483917,130,510,130,130,1.086,291.54358673095703,112,510,112,112
+e1d00addb5b6d7240884536aaa57846af34a0dd5,11.356,467.1607267856598,58,58,510,58,10.884,186.2002236843109,29,56,130,29,9.654,54.37354135513306,11,57,112,11
+3a52bfc5db1b13a71d5a5c6ee0cd689fb8b27895,12.285,252.88464403152466,20,20,510,20,12.044,161.11817049980164,19,22,130,19,11.084,32.31703305244446,4,24,112,4

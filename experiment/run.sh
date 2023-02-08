@@ -5,7 +5,7 @@ project=$2
 
 function usage() {
     echo 'Usage: ./run_azure.sh [mode] [project]'
-    echo '[mode]: (1) urts (2) reall (3) ekst (4) unsafe'
+    echo '[mode]: (1) urts (2) reall (3) ekst (4) unsafe (5) demo'
     echo '[project]: (1) hcommon (2) hbase (3) hdfs (4) alluxio (5) zookeeper'
     exit 1
 }
@@ -24,14 +24,28 @@ function runExperiment() {
     fi
 }
 
+function runDemo() {
+    cd urts/hcommon
+    echo '============== Start Running HCommon Demo =============='
+    python3 run_demo.py | tee output.out
+    cd ../..
+    echo '============== Finish Running HCommon Demo =============='
+}
+
 function main() {
     if [ -z $mode ] || [ -z $project ]; then
         usage
     elif [ $mode = "urts" ] || [ $mode = "retestall" ] || [ $mode = "ekstazi-ext" ] || [ $mode = "ekstazi-unsafe" ]; then
         runExperiment
+    elif [ $mode = "demo" ]; then
+        runDemo
     else
         usage
     fi
 }
 
+starttime=$(date)
+echo "starttime: $starttime"
 main
+endtime=$(date)
+echo "endtime: $endtime"

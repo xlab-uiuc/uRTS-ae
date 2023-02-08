@@ -20,7 +20,7 @@ $ bash install_tool.sh urts
 $ bash install_tool.sh ekst
 ```
 
-## Run Experiment
+## Run Experiment (~2000+ hours)
 *Warning*: This step would require 2000+ hours to finish on a single machine.
 - `hcommon` takes around 140+ hours
 - `hdfs` takes around 1700+ hours
@@ -63,3 +63,23 @@ $ python3 draw.py zookeeper ../data/csv_files/zookeeper/summary.csv figures/zook
 ```
 The output figures will be saved in `figures` under the current directory.
 The output figures are the main results we show in our [paper](https://github.com/xlab-uiuc/uRTS-ae/blob/main/paper.pdf) Figure 7.
+
+## Run HCommon Demo (~70 minutes)
+We also provide a demo of running uRTS on 3 versions of HCommon projects with 3 configurations (1 default configuration + 2 production configuration). 
+
+Use the following command to run the demo:
+```
+$ bash run.sh demo hcommon
+```
+
+After finishing, follow the steps to get CSV files of uRTS execution information:
+```
+$ mkdir -p csv_files/hcommon
+# Parse hcommon results and put CSV files into `csv_files/hcommon/` directory
+$ bash parse.sh hcommon csv_files/hcommon/
+# Check parsed results
+$ cat csv_files/hcommon/hcommon-urts.csv
+```
+
+There are in total 9 rounds test execution. The first round will rerun all the tests in HCommon for uRTS to collect dependencies that are needed for later selection.
+The following 8 rounds will perform uRTS and the expected results are stored in [data/csv_files/demo/hcommon-urts.csv](https://github.com/xlab-uiuc/uRTS-ae/tree/main/data/csv_files/demo/hcommon-urts.csv) 
